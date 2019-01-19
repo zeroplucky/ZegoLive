@@ -1,0 +1,5 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">MyApplicaton</string>
+    <string name="vt_live_quality_fps_and_bitrate">&#160;帧率:<xliff:g id="fps">%1$.2f</xliff:g>;&#160;比特率:<xliff:g id="bitrate">%2$.2f</xliff:g>Kb/s;&#160;延时:<xliff:g id="rtt">%3$s</xliff:g>ms;&#160;丢包率:<xliff:g id="pktlostrate">%4$s</xliff:g>%%</string>
+
+</resources>
