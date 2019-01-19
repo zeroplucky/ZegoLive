@@ -39,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startSessionActivity() {
-//        Intent startIntent = new Intent(MainActivity.this, ZegoPhoneActivity.class);
-//        startIntent.putExtra("roomId", mRoomName.getText().toString().trim());
-//        startActivity(startIntent);
+        Intent startIntent = new Intent(MainActivity.this, ZegoPhoneActivity.class);
+        startIntent.putExtra("roomId", mRoomName.getText().toString().trim());
+        startActivity(startIntent);
 
-        Intent intent = new Intent(MainActivity.this, VideoActivity.class);
-        intent.putExtra("roomId", mRoomName.getText().toString().trim());
-        startActivity(intent);
+//        Intent intent = new Intent(MainActivity.this, VideoActivity.class);
+//        intent.putExtra("roomId", mRoomName.getText().toString().trim());
+//        startActivity(intent);
     }
 
     private void initView() {

@@ -182,6 +182,7 @@ public class ZegoVideo {
     * */
     public void logoutRoom() {
         try {
+            zegoRoomIinstener = null;
             ZegoLiveRoom liveRoom = ZegoVideo.getLiveRoom();
             liveRoom.stopPublishing();
             liveRoom.stopPreview();
