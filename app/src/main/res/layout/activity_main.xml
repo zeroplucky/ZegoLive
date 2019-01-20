@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="0dp">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="100dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		tools:layout_editor_absoluteX="8dp"
+		tools:layout_editor_absoluteY="0dp">
 
-        <EditText
-            android:id="@+id/room_name"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:hint="房间号"
-            android:maxLength="1024"
-            android:maxLines="1"
-            android:singleLine="true" />
+		<EditText
+			android:id="@+id/room_name"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:hint="房间号"
+			android:maxLength="1024"
+			android:maxLines="1"
+			android:singleLine="true"/>
 
-        <Button
-            android:id="@+id/btn_login_logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:onClick="onLoginClick"
-            android:text="进入"
-            tools:layout_editor_absoluteY="0dp" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:onClick="onAudioClick"
+			android:text="进入语音"
+			tools:layout_editor_absoluteY="0dp"/>
 
-    </LinearLayout>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:onClick="onVideoClick"
+			android:text="进入视频"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</LinearLayout>
 
 </LinearLayout>

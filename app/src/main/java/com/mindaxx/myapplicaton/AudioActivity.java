@@ -6,12 +6,12 @@ import android.os.Bundle;
 import com.mindaxx.zegolib.ZegoAudio;
 
 
-public class ZegoPhoneActivity extends AppCompatActivity {
+public class AudioActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zego_phone);
+        setContentView(R.layout.activity_audio);
         ZegoAudio.with().initZego(getApplicationContext());
 
         String roomId = getIntent().getStringExtra("roomId");

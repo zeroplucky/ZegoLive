@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZegoLive.iml" filepath="$PROJECT_DIR$/ZegoLive.iml" />
+      <module fileurl="file://E:\ZegoLive\ZegoLive.iml" filepath="E:\ZegoLive\ZegoLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\ZegoLive\app\app.iml" filepath="E:\ZegoLive\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/zegolib/zegolib.iml" filepath="$PROJECT_DIR$/zegolib/zegolib.iml" />
+      <module fileurl="file://E:\ZegoLive\zegolib\zegolib.iml" filepath="E:\ZegoLive\zegolib\zegolib.iml" />
     </modules>
   </component>
 </project>
